@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>position-property</title>
+        <style>
+          *{
+            margin: 0;padding: 0;
+          }
+          .box{
+            height: 50px;
+            width: 50px;
+            
+            margin: 5px;
+            
+          }
+          #box1{
+            position: static; 
+            background-color: rgb(0, 0, 128);   /* default and static and relative same same */
+          }
+          #box2{
+            position: relative; /* relative to its own position */
+            top: 10px;
+            left: 50px;
+            background-color: rgb(0, 0, 128);
+            
+          }
+          #box3{
+            position: absolute; /* page ki outer layer me aa jaye ga (yani positioning hog) or parent yani (body) k hisab sy  */
+            top: 300px;   /* absolute and fixed are same*/
+            background-color: rgb(0, 0, 128);
+          }
+          #box4{
+            position: fixed;/* page ki outer layer me aa jaye ga or parent yani (body) k hisab sy or move ni kre ga ye hm kisi cheez ko static krne k lia use krty hn */
+            right: 50px;/* z-index also can be mentioned*/
+            background-color: rgb(0, 0, 128);
+          }
+        </style>
+
+</head>
+<body>  
+  <div id="box1" class="box">box 1</div>
+  <div id="box2" class="box">box 2</div>
+  <div id="box3" class="box">box 3</div>
+  <div id="box4" class="box">box 4</div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+
+
+  </div>
+</body>
+</html> 

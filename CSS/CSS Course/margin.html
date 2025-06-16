@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>margin</title>
+        <style>
+         
+          *{
+            margin: 0px;
+          }
+          /* maximum margin value waly ko honour kre ga
+          margin = equal value to must h , greater bhi possible h lekin lesser not possible */
+          /* margin box mn count ni hota */
+          #box1{
+            height: 150px;
+            width: 150px;
+            background-color: yellowgreen;
+            padding: 10px;
+            margin: 5px 5px 10px 5px;/*clockwise direction top left bottom right */
+          }
+          #box2{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(7, 65, 83);
+            padding: 10px;
+            margin: 15px 5px 5px 5px;        
+          }
+        </style>
+</head>
+<body>
+  <div id="box1" class="box">box 1</div>
+  <div id="box2" class="box">box 2</div>
+</body>
+</html>

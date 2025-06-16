@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>box-sizing</title>
+        <style>
+          *{
+            margin: 0px;
+          }
+          #box1{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 4px solid black;
+            box-sizing: border-box; /* box border k hisab sy */
+          }
+          #box2{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 4px solid black;
+            box-sizing: content-box;/*default h or box content k hisab sy k hisab sy */
+          }
+        </style>
+</head>
+<body>
+  <div id="box1" class="box">box 1</div>
+  <div id="box2" class="box">box 2</div>
+</body>
+</html>

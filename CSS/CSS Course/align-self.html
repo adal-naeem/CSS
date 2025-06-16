@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>align-self</title><!--  ye single item ko y axis k along aline krne k lia use hoti h , aagr hm baqion ko kahin or or kisi aik ko kahin or align krwana chahty hon to -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+      text-align: center;
+    }
+  #container1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+  }
+  #box1{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(119, 111, 175);
+    border: 2px solid black;
+    margin: 5px;
+    align-self:end;
+  }
+  #box2{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(58, 38, 42);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  
+  #box3{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(204, 210, 161);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  
+  #box4{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(201, 99, 92);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  </style>
+</head>
+<body>
+  <h1>flex container 1</h1>
+    <div id="container1">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+</body>
+</html>

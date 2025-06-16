@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>justify-content</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+      text-align: center;
+    }
+  #container1{ /*agr box size zada hua na to ye us hisab sy adjust krle ga*/
+    height: 60px;
+    width: 1360px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:flex-start; /* it is default or in flex-row direction*/
+  }
+  #container2{
+    height: 60px;
+    width: 1360px;
+    border: 2px solid black;
+    display: row;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  #container3{
+    height: 60px;
+    width: 1360px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+  }
+  #container4{
+    height: 60px;
+    width: 1360px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+  }
+  #container5{
+    height: 60px;
+    width: 1360px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #container6{
+    height: 60px;
+    width: 1360px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+  #box1{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(119, 111, 175);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  #box2{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(58, 38, 42);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  
+  #box3{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(204, 210, 161);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  
+  #box4{
+    height: 50px;
+    width: 50px;    
+    background-color: rgb(201, 99, 92);
+    border: 2px solid black;
+    margin: 5px;
+  }
+  </style>
+</head>
+<body>
+  <h1>flex container 1</h1>
+    <div id="container1">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+  <h1>flex container 2</h1>
+    <div id="container2">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+  <h1>flex container 3</h1>
+    <div id="container3">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+  <h1>flex container 4</h1>
+    <div id="container4">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+  <h1>flex container 5</h1>
+    <div id="container5">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+    
+  <h1>flex container 6</h1>
+    <div id="container6">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+      <div id="box4" class="box">box4</div>
+    </div>
+</body>
+</html>

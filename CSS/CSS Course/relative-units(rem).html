@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>relative-units(rem)</title>
+        <style>
+          /* according to root element(not parent) size define */
+          *{
+            margin: 4px;
+            font-size: 20px;
+          }
+          #box1{
+            height: 500px;
+            width: 600px;
+            background-color: aqua;
+            font-size: 50px;
+          }
+          #box2{
+            height: 30%;
+            width: 60% ;
+            background-color: rebeccapurple;
+            font-size: 0.5rem;
+          }
+        </style>
+</head>
+<body>
+  body text
+  <div id="box1" class="box">box 1
+      <div id="box2" class="box">box 2</div>
+
+  </div>
+</body>
+</html>
